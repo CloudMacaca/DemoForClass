@@ -7,7 +7,7 @@ public class Card : ScriptableObject
 {
 
     [SerializeField]
-    private Sprite cardImage;
+    public Sprite cardImage;
     [SerializeField]
     public string cardName;
 
