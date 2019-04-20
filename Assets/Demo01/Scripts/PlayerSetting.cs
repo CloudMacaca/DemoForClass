@@ -3,6 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu]
-public class PlayerSetting : ScriptableObject {
-	
+public class PlayerSetting : MonoBehaviour {
+	public int moveSpeed;
 }
