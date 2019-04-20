@@ -20,7 +20,7 @@ public class GameTarget : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            CircleCollider2D collider = GetComponent<CircleCollider2D>();
+            SphereCollider collider = GetComponent<SphereCollider>();
             Vector3 touchPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             if (IsFallingInCircle(collider, touchPos))
             {
@@ -49,7 +49,7 @@ public class GameTarget : MonoBehaviour
         Destroy(this.gameObject);
     }
     //檢查是否點擊到的方法
-    bool IsFallingInCircle(CircleCollider2D collider, Vector3 position)
+    bool IsFallingInCircle(SphereCollider collider, Vector3 position)
     {
         position.z = 0;
 

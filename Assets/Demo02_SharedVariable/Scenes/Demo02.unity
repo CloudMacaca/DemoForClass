@@ -372,7 +372,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e901ae39debd448f185a5d3fc1a406e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: {fileID: 11400000, guid: 024e5bfb5b17649c89b0a4114ba7f71f, type: 2}
 --- !u!1001 &1078683543
 Prefab:
   m_ObjectHideFlags: 0
@@ -410,6 +409,10 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4400987453325542, guid: b659f936b2c7b408bad4eeb03403368c, type: 2}
       propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986749784632262, guid: b659f936b2c7b408bad4eeb03403368c, type: 2}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -712,7 +715,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 203526806d3ad43a5b3a78f2b3dc04c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: {fileID: 11400000, guid: 024e5bfb5b17649c89b0a4114ba7f71f, type: 2}
   targetList:
   - {fileID: 1986749784632262, guid: b659f936b2c7b408bad4eeb03403368c, type: 2}
   - {fileID: 1438810409428968, guid: 37b9bc7ad95c54aa8a8a964a08eb2558, type: 2}

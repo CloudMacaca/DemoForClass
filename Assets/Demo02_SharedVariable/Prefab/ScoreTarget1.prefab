@@ -21,8 +21,8 @@ GameObject:
   - component: {fileID: 4400987453325542}
   - component: {fileID: 212961295470439620}
   - component: {fileID: 114930885450196064}
-  - component: {fileID: 58514478715982078}
   - component: {fileID: 82631501948666986}
+  - component: {fileID: 135130480299641532}
   m_Layer: 0
   m_Name: ScoreTarget1
   m_TagString: Untagged
@@ -43,21 +43,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!58 &58514478715982078
-CircleCollider2D:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1986749784632262}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.18
 --- !u!82 &82631501948666986
 AudioSource:
   m_ObjectHideFlags: 1
@@ -152,8 +137,18 @@ MonoBehaviour:
   scoreReference: {fileID: 11400000, guid: 024e5bfb5b17649c89b0a4114ba7f71f, type: 2}
   hitScore: 10
   appearTime: 5
-  hitSound: {fileID: 8300000, guid: 73ec7c11b2ed64bd4900ee8cbf82984e, type: 3}
-  missSound: {fileID: 8300000, guid: ddb81c9c540264070a83ea9df2daeaa6, type: 3}
+--- !u!135 &135130480299641532
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1986749784632262}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.1775
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &212961295470439620
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -163,6 +158,7 @@ SpriteRenderer:
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -178,6 +174,7 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -194,3 +191,5 @@ SpriteRenderer:
   m_Size: {x: 0.39, y: 0.38}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
