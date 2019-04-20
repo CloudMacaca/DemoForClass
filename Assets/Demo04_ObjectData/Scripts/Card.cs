@@ -17,6 +17,6 @@ public class Card : ScriptableObject
     [SerializeField]
     public int attack;
 
-    [SerializeField, Range(0, 5)]
+    [SerializeField, Range(1, 5)]
     public int rare;
 }

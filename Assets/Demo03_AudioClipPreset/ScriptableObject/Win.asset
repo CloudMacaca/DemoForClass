@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa80d673e942e4ac1b9d8237f96ab6e6, type: 3}
+  m_Name: Win
+  m_EditorClassIdentifier: 
+  audioClip:
+  - {fileID: 8300000, guid: 62d2e631e481e46b19ef5bdec7dd619f, type: 3}
+  - {fileID: 8300000, guid: ed4e71d942e7b4b61b522bf5f90fb664, type: 3}
+  - {fileID: 8300000, guid: d70b20a51313a45f6ad2b0a206e62dba, type: 3}
+  volume: {x: 1.1278195, y: 1.7142854}
+  pitch: {x: 0.60150373, y: 1.5037594}
