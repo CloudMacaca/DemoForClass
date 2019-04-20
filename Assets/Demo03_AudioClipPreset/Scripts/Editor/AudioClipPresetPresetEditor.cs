@@ -8,7 +8,7 @@ public class AudioClipPresetPresetEditor : Editor
     {
         base.OnInspectorGUI();
 
-        if (GUILayout.Button("aba"))
+        if (GUILayout.Button("Preview"))
         {
             var audioSource = FindObjectOfType<AudioSource>();
             ((AudioClipPreset)target).Play(audioSource);
